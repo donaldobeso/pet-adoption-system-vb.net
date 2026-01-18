@@ -1,9 +1,13 @@
 🐾 Pet Adoption System (vb.net)
+
 A comprehensive desktop application built with VB.NET and Windows Forms to streamline the pet adoption process, connecting adopters with pets in need of homes.
 
 🎯 Overview
+
 The Pet Adoption System is a Windows Forms application designed to manage the complete pet adoption workflow. It provides role-based access for administrators, staff, and potential adopters, facilitating efficient pet management and adoption request processing.
+
 ✨ Features
+
 For Adopters
 
 🔍 Browse Available Pets - Search and filter pets by species, gender, age, and availability
@@ -40,6 +44,7 @@ System.Security.Cryptography - Password hashing
 Microsoft.Web.WebView2 - Web content rendering
 
 🗄️ Database Schema
+
 Main Tables
 
 users - User accounts with authentication and profile data
@@ -54,6 +59,7 @@ adoption_requests: id, user_id, pet_id, status, request_date
 adoption_qualifications: request_id, first_name, last_name, address, phone_number, home_type, has_other_pets, income, reason
 
 🚀 Installation
+
 Prerequisites
 
 Windows OS (Windows 10 or later recommended)
@@ -74,7 +80,7 @@ Steps
 5. Configure Email Settings (Change it to your email)
 Update EmailHelper.vb with your SMTP credentials:
 
-vb   smtp.Credentials = New NetworkCredential("your-email@gmail.com", "your-app-password")
+smtp.Credentials = New NetworkCredential("your-email@gmail.com", "your-app-password")
 
 Build and Run
 
