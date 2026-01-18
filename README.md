@@ -1,3 +1,14 @@
+📋 Table of Contents
+
+Overview
+Features
+Technologies Used
+Database Schema
+Installation
+Usage
+User Roles
+Future Improvements
+
 🐾 Pet Adoption System (vb.net)
 
 A comprehensive desktop application built with VB.NET and Windows Forms to streamline the pet adoption process, connecting adopters with pets in need of homes.
@@ -100,6 +111,7 @@ sqlUPDATE users SET role = 'admin' WHERE id = 15;
 👥 User Roles
 
 <img width="616" height="209" alt="image" src="https://github.com/user-attachments/assets/8b639a26-837d-49a6-8962-c0593333ae73" />
+
 
 🚧 Future Improvements
 High Priority
