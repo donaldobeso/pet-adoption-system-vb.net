@@ -98,6 +98,7 @@ Manually set the first admin account in the database:
 sqlUPDATE users SET role = 'admin' WHERE id = 15;
 
 👥 User Roles
+
 <img width="616" height="209" alt="image" src="https://github.com/user-attachments/assets/8b639a26-837d-49a6-8962-c0593333ae73" />
 
 🚧 Future Improvements
